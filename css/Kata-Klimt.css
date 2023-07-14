@@ -1,0 +1,455 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    @media only screen and (max-width: 576px) {
+        .Container4 div {
+            width: 100%;
+            padding-right: 0px;
+        }
+        .Photoshoots>div {
+            width: 100%;
+        }
+        /* .WelcomeContentR {
+            line-break: auto;
+        } */
+    }
+    
+    .Header {
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: solid;
+        /* width: 100%; */
+        /* height: 100px; */
+        justify-content: center;
+    }
+    
+    .HeaderContent {
+        width: 90%;
+        /* border: solid; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    #KataKlimt {
+        width: 50%;
+        /* border: solid red; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .Menu {
+        width: 50%;
+        /* border: solid; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .KataKlimtR1 {
+        width: 40%;
+        /* border: solid; */
+        padding: 5px;
+        /* display: block; */
+    }
+    
+    .KataKlimtR1 #red {
+        font-size: 25px;
+    }
+    
+    #red::first-letter {
+        color: red;
+        font-size: 40px;
+    }
+    
+    .About,
+    .Services,
+    .Blog,
+    .Folio,
+    .Contact {
+        width: auto;
+        /* flex-grow: 1; */
+        /* justify-content: center; */
+        text-align: center;
+        /* border: solid pink; */
+        padding: 25px;
+        font-size: 18px;
+        color: grey;
+        /* margin: 2px; */
+    }
+    
+    .About {
+        background: red;
+        color: white;
+        border-radius: 50%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .Container {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid; */
+        /* width: 100%; */
+        /* height: 400px; */
+        justify-content: center;
+        background-color: #414a4c;
+    }
+    
+    .ImgContainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        /* height: 500px; */
+        /* border: solid; */
+        margin: 20px 0px 30px;
+    }
+    
+    .FiveImgs,
+    .BigGirl {
+        width: 50%;
+        /* border: solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        /* height: 400px; */
+    }
+    
+    .Img1,
+    .Img2,
+    .Img3,
+    .Img4 {
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid; */
+    }
+    
+    .Container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        padding-bottom: 30px;
+        /* border: solid; */
+        /* height: 300px; */
+    }
+    
+    .Welcome {
+        width: 25%;
+        /* border: solid red; */
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 30px;
+    }
+    
+    .WelcomeContent {
+        width: 75%;
+        /* border: solid red; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .WelcomeContainer {
+        /* width: 100%; */
+        border-right: solid;
+        /* text-align: center; */
+        font-size: 50px;
+        color: white;
+        font-family: 'Sereif';
+    }
+    
+    .WelcomeContainer::first-letter {
+        color: red;
+    }
+    
+    .WelcomeContentR {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .Container3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* height: 300px; */
+        background-color: #010B13;
+    }
+    
+    .Container4 {
+        width: 90%;
+        /* border: solid red; */
+        margin: 30px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #010B13;
+    }
+    
+    .Fashion,
+    .Nature,
+    .Love,
+    .Fineart {
+        width: 23%;
+        /* border: solid pink; */
+    }
+    
+    .Fashion,
+    .Nature,
+    .Love {
+        margin-right: 2.66666666%;
+    }
+    
+    .HeadContent {
+        color: white;
+        font-size: 25px;
+        margin: 15px 0px;
+    }
+    
+    .Content {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid red; */
+        color: gray;
+        margin: 20px 0px;
+    }
+    
+    .Content>p::first-line {
+        color: white;
+    }
+    
+    .Readmore {
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: red; */
+    }
+    
+    .Readmore p {
+        color: white;
+    }
+    
+    #box {
+        width: 30%;
+        text-align: center;
+        padding: 4px;
+        background-color: red;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:active {
+        color: yellow;
+    }
+    
+    .Container5 {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid red; */
+        /* height: 400px; */
+        justify-content: center;
+        background-color: black;
+    }
+    
+    .Container6 {
+        width: 90%;
+        /* border: solid; */
+        margin: 30px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+    }
+    
+    .Shortly {
+        width: 45%;
+        /* border: solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .Photoshoots {
+        width: 50%;
+        /* border: solid red; */
+        /* display: flex;
+    flex-wrap: wrap; */
+        margin-left: 67px;
+        color: white;
+    }
+    
+    .PhotoshootsImgs {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid white; */
+        /* height: 400px; */
+        margin-top: 15px;
+    }
+    
+    .PhotoshootsHeader {
+        /* border: solid white; */
+        font-size: 25px;
+        /* margin: 2px; */
+    }
+    
+    .R1,
+    .R2,
+    .R3 {
+        /* height: 100px; */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .C1,
+    .C2,
+    .C3,
+    .C4 {
+        width: 23.5%;
+        /* border: solid white; */
+        /* height: 100px; */
+        margin: 5px;
+    }
+    
+    .ShortlyHeader {
+        /* border: solid; */
+        /* color: white; */
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin: 10px 10px 0px 0px; */
+        color: white;
+    }
+    
+    .ShortlyImg {
+        width: 50%;
+        padding-right: 4%;
+        /* border: solid; */
+        display: flex;
+        flex-wrap: wrap;
+        /* height: 300px; */
+    }
+    
+    .ShortlyContent {
+        width: 50%;
+        /* padding-left: 2%; */
+        /* border: solid; */
+        /* height: 300px; */
+        margin-top: 50px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    
+    #white {
+        color: white;
+    }
+    
+    .List {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid; */
+        /* height: 100px; */
+    }
+    
+    .Campaign {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid; */
+        width: 50%;
+        line-height: 30px;
+    }
+    
+    .Advertising {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid; */
+        width: 50%;
+        line-height: 30px;
+    }
+    
+    li {
+        list-style: none;
+        color: red;
+        /* font */
+    }
+    
+    li::before {
+        content: '> ';
+        color: red;
+    }
+    
+    #gray {
+        color: gray;
+    }
+    
+    .Footer {
+        background-color: #fff;
+        /* height: 100px; */
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid; */
+        width: 100%;
+        /* background-color: gray; */
+        justify-content: center;
+    }
+    
+    .Copyrights,
+    .Socialmedia {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: solid; */
+        width: 50%;
+        align-items: center;
+        padding: 30px 25px 25px 0px;
+        /* font-size: 25px; */
+    }
+    
+    .FooterR1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        /* border: solid black; */
+        /* background-color: white; */
+    }
+    
+    .Socialmedia {
+        justify-content: end;
+        /* border: solid; */
+    }
+    
+    .insta,
+    .fb,
+    .dot,
+    .linkedin {
+        /* width: 20%; */
+        font-size: 25px;
+        /* color: red; */
+        /* border: solid; */
+        justify-content: center;
+        display: flex;
+        padding: 10px;
+    }
+    
+    #clickred {
+        color: red
+    }
+    
+    .fa-brands,
+    .fab {
+        font-weight: 400;
+        /* background-color: red; */
+        border-radius: 50%;
+        color: red
+    }
